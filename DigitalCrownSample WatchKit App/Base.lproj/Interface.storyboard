@@ -25,6 +25,11 @@
                                 <segue destination="xZ1-CS-iJe" kind="push" id="K2a-sr-mha"/>
                             </connections>
                         </button>
+                        <button width="1" alignment="left" title="Coordination" id="45v-UC-YG0">
+                            <connections>
+                                <segue destination="mGC-ny-tJP" kind="push" id="vsd-6Z-fjX"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
@@ -82,6 +87,27 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="416" y="401"/>
+        </scene>
+        <!--Coordination-->
+        <scene sceneID="3BG-HI-QNj">
+            <objects>
+                <controller title="Coordination" hidesWhenLoading="NO" id="mGC-ny-tJP" customClass="CoordinationInterfaceController">
+                    <items>
+                        <group width="1" height="1" alignment="center" verticalAlignment="center" id="D3Q-ZP-ZsY">
+                            <items>
+                                <picker width="50" height="50" alignment="center" verticalAlignment="center" focusStyle="sequence" id="yNl-v4-5Zx"/>
+                                <picker width="50" height="50" alignment="center" verticalAlignment="center" focusStyle="sequence" id="utt-Hc-SnO"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="group" destination="D3Q-ZP-ZsY" id="Qs4-6v-7vu"/>
+                        <outlet property="leftPicker" destination="yNl-v4-5Zx" id="Qwd-u3-Bfg"/>
+                        <outlet property="rightPicker" destination="utt-Hc-SnO" id="Mm5-JT-DFG"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="416" y="633"/>
         </scene>
     </scenes>
 </document>

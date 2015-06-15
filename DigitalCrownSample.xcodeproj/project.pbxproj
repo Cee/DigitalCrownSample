@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		92000FFB1B2EAC0600C99A68 /* SequenceInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92000FFA1B2EAC0600C99A68 /* SequenceInterfaceController.m */; };
+		92000FFE1B2EB26F00C99A68 /* CoordinationInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92000FFD1B2EB26F00C99A68 /* CoordinationInterfaceController.m */; };
 		92AFF2981B2E748B004417F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AFF2971B2E748B004417F1 /* main.m */; };
 		92AFF29B1B2E748B004417F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AFF29A1B2E748B004417F1 /* AppDelegate.m */; };
 		92AFF29E1B2E748B004417F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AFF29D1B2E748B004417F1 /* ViewController.m */; };
@@ -23,6 +24,8 @@
 		92AFF2C51B2E748B004417F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AFF2C41B2E748B004417F1 /* Assets.xcassets */; };
 		92AFF2DA1B2E79F3004417F1 /* ListInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AFF2D91B2E79F3004417F1 /* ListInterfaceController.m */; };
 		92AFF2DD1B2E7FEC004417F1 /* StackInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AFF2DC1B2E7FEC004417F1 /* StackInterfaceController.m */; };
+		92F07B061B2EC021007AC6C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AFF2B21B2E748B004417F1 /* Assets.xcassets */; };
+		92F07B071B2EC0BC007AC6C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AFF2C41B2E748B004417F1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,8 @@
 /* Begin PBXFileReference section */
 		92000FF91B2EAC0600C99A68 /* SequenceInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SequenceInterfaceController.h; sourceTree = "<group>"; };
 		92000FFA1B2EAC0600C99A68 /* SequenceInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SequenceInterfaceController.m; sourceTree = "<group>"; };
+		92000FFC1B2EB26F00C99A68 /* CoordinationInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinationInterfaceController.h; sourceTree = "<group>"; };
+		92000FFD1B2EB26F00C99A68 /* CoordinationInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinationInterfaceController.m; sourceTree = "<group>"; };
 		92AFF2931B2E748B004417F1 /* DigitalCrownSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalCrownSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92AFF2971B2E748B004417F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92AFF2991B2E748B004417F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -184,6 +189,8 @@
 				92AFF2DC1B2E7FEC004417F1 /* StackInterfaceController.m */,
 				92000FF91B2EAC0600C99A68 /* SequenceInterfaceController.h */,
 				92000FFA1B2EAC0600C99A68 /* SequenceInterfaceController.m */,
+				92000FFC1B2EB26F00C99A68 /* CoordinationInterfaceController.h */,
+				92000FFD1B2EB26F00C99A68 /* CoordinationInterfaceController.m */,
 			);
 			path = "DigitalCrownSample WatchKit Extension";
 			sourceTree = "<group>";
@@ -300,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92AFF2B31B2E748B004417F1 /* Assets.xcassets in Resources */,
+				92F07B071B2EC0BC007AC6C2 /* Assets.xcassets in Resources */,
 				92AFF2B11B2E748B004417F1 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92F07B061B2EC021007AC6C2 /* Assets.xcassets in Resources */,
 				92AFF2C51B2E748B004417F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +342,7 @@
 				92AFF2C31B2E748B004417F1 /* ExtensionDelegate.m in Sources */,
 				92AFF2DA1B2E79F3004417F1 /* ListInterfaceController.m in Sources */,
 				92000FFB1B2EAC0600C99A68 /* SequenceInterfaceController.m in Sources */,
+				92000FFE1B2EB26F00C99A68 /* CoordinationInterfaceController.m in Sources */,
 				92AFF2C01B2E748B004417F1 /* InterfaceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -26,7 +26,7 @@
     NSMutableArray *pickerItems = [[NSMutableArray alloc] init];
     for (int i = 0; i < 25; i++) {
         WKPickerItem *pickerItem = [[WKPickerItem alloc] init];
-        WKImage *image = [WKImage imageWithImageName:[NSString stringWithFormat:@"Head%d", i + 1]];
+        WKImage *image = [WKImage imageWithImageName:[NSString stringWithFormat:@"Stack/Head%d", i + 1]];
         [pickerItem setCaption:[NSString stringWithFormat:@"Image %d", i + 1]];
         [pickerItem setContentImage:image];
         [pickerItems addObject:pickerItem];
