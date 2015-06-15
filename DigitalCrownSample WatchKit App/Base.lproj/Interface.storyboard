@@ -69,10 +69,10 @@
             </objects>
             <point key="canvasLocation" x="416" y="180"/>
         </scene>
-        <!--Sequence Interface Controller-->
+        <!--Sequence-->
         <scene sceneID="16Y-Ff-9G1">
             <objects>
-                <controller hidesWhenLoading="NO" id="xZ1-CS-iJe" customClass="SequenceInterfaceController">
+                <controller title="Sequence" hidesWhenLoading="NO" id="xZ1-CS-iJe" customClass="SequenceInterfaceController">
                     <items>
                         <picker width="100" height="100" alignment="center" verticalAlignment="center" style="sequence" focusStyle="stack" indicatorMode="shownWhileFocused" id="j5Z-MF-M3R"/>
                     </items>
