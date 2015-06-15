@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92000FFB1B2EAC0600C99A68 /* SequenceInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92000FFA1B2EAC0600C99A68 /* SequenceInterfaceController.m */; };
 		92AFF2981B2E748B004417F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AFF2971B2E748B004417F1 /* main.m */; };
 		92AFF29B1B2E748B004417F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AFF29A1B2E748B004417F1 /* AppDelegate.m */; };
 		92AFF29E1B2E748B004417F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AFF29D1B2E748B004417F1 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 		92AFF2C01B2E748B004417F1 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AFF2BF1B2E748B004417F1 /* InterfaceController.m */; };
 		92AFF2C31B2E748B004417F1 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AFF2C21B2E748B004417F1 /* ExtensionDelegate.m */; };
 		92AFF2C51B2E748B004417F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AFF2C41B2E748B004417F1 /* Assets.xcassets */; };
+		92AFF2DA1B2E79F3004417F1 /* ListInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AFF2D91B2E79F3004417F1 /* ListInterfaceController.m */; };
+		92AFF2DD1B2E7FEC004417F1 /* StackInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AFF2DC1B2E7FEC004417F1 /* StackInterfaceController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		92000FF91B2EAC0600C99A68 /* SequenceInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SequenceInterfaceController.h; sourceTree = "<group>"; };
+		92000FFA1B2EAC0600C99A68 /* SequenceInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SequenceInterfaceController.m; sourceTree = "<group>"; };
 		92AFF2931B2E748B004417F1 /* DigitalCrownSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalCrownSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92AFF2971B2E748B004417F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92AFF2991B2E748B004417F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +91,10 @@
 		92AFF2C21B2E748B004417F1 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
 		92AFF2C41B2E748B004417F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92AFF2C61B2E748B004417F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92AFF2D81B2E79F3004417F1 /* ListInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListInterfaceController.h; sourceTree = "<group>"; };
+		92AFF2D91B2E79F3004417F1 /* ListInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListInterfaceController.m; sourceTree = "<group>"; };
+		92AFF2DB1B2E7FEC004417F1 /* StackInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackInterfaceController.h; sourceTree = "<group>"; };
+		92AFF2DC1B2E7FEC004417F1 /* StackInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackInterfaceController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +178,12 @@
 				92AFF2C21B2E748B004417F1 /* ExtensionDelegate.m */,
 				92AFF2C41B2E748B004417F1 /* Assets.xcassets */,
 				92AFF2C61B2E748B004417F1 /* Info.plist */,
+				92AFF2D81B2E79F3004417F1 /* ListInterfaceController.h */,
+				92AFF2D91B2E79F3004417F1 /* ListInterfaceController.m */,
+				92AFF2DB1B2E7FEC004417F1 /* StackInterfaceController.h */,
+				92AFF2DC1B2E7FEC004417F1 /* StackInterfaceController.m */,
+				92000FF91B2EAC0600C99A68 /* SequenceInterfaceController.h */,
+				92000FFA1B2EAC0600C99A68 /* SequenceInterfaceController.m */,
 			);
 			path = "DigitalCrownSample WatchKit Extension";
 			sourceTree = "<group>";
@@ -314,7 +329,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92AFF2DD1B2E7FEC004417F1 /* StackInterfaceController.m in Sources */,
 				92AFF2C31B2E748B004417F1 /* ExtensionDelegate.m in Sources */,
+				92AFF2DA1B2E79F3004417F1 /* ListInterfaceController.m in Sources */,
+				92000FFB1B2EAC0600C99A68 /* SequenceInterfaceController.m in Sources */,
 				92AFF2C01B2E748B004417F1 /* InterfaceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,7 +419,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos9.0;
 			};
 			name = Debug;
 		};
@@ -437,7 +455,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos9.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -545,6 +563,7 @@
 				92AFF2CB1B2E748B004417F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92AFF2CD1B2E748B004417F1 /* Build configuration list for PBXNativeTarget "DigitalCrownSample WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +572,7 @@
 				92AFF2CF1B2E748B004417F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92AFF2D11B2E748B004417F1 /* Build configuration list for PBXNativeTarget "DigitalCrownSample" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +581,7 @@
 				92AFF2D31B2E748B004417F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
